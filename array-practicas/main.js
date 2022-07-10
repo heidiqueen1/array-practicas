@@ -1,7 +1,9 @@
-let numbers = ["Heidi","Aithana", "Nathan", "Nabil"];
+let personas = ["Heidi","Aithana", "Nathan", "Nabil"];
+let carros = ["toyota", "fiat", "suzuki", "audi"];
 
-show(numbers);
-showDom("array1", numbers);
+show(personas);
+showDom("array1", personas);
+showDom("array2", carros);
 
 function show(arr){
     for(let i = 0; i < arr.length; i++){
